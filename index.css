@@ -1,0 +1,126 @@
+ /* CSS Reset */
+ body {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+.banner {
+    /* height:100vh; */
+    background-attachment: fixed;
+    background: url('img/workout-1946596_1920.jpg');
+
+background-size: 100% 100%; 
+ }
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 10px;
+    top: 0px;
+}
+
+.left img {
+    width: 136px;
+    filter: invert(100%);
+    margin-left: 10px;
+}
+
+.left div {
+    line-height: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.mid {
+    display: block;
+    width: 50%;
+    margin:auto auto auto 35%;
+    
+    /* border: 2px solid green; */
+}
+
+.right {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 22px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 1px 10px;
+
+}
+
+.navbar li a:hover
+{
+    text-decoration: underline;
+    color : red;
+
+}
+
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 4px 9px;
+    background-color: black;
+    color: white;
+    padding: 1px 10px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+.container {
+    border: 2px solid white;
+    margin: 100px 80px 10px 120px;
+    padding: 2px;
+    width: 25%;
+    border-radius: 28px;
+    color: white;
+    
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 80%;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 5px auto;
+    /* margin-left: px; */
+    font-size: 17px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: x-large;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 10px auto;
+    
+}
