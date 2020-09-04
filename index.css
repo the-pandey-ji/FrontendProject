@@ -208,3 +208,16 @@ table{
 #schedule{
     background:rgba(184, 106, 121, 0.3);
 }
+
+/* plan  */
+/* plan  */
+.price
+{
+
+    border: #495057 2px solid;
+    padding: 5px;
+    background-color: lightcyan;
+}
+.price:hover{
+transform: scale(1.1);
+}
