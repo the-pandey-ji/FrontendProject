@@ -222,6 +222,26 @@ table{
 .trainer-img{
     margin: 10px;
 }
+/* <!-- become a member -->
+<!-- become a member -->
+<!-- become a member --> */
+
+.become-member{
+    background: url(img/training-828760.jpg);
+    background-size:100% ;
+    padding: 30% 0 2% 0;
+    color:white;
+
+}
+.become-member a{
+    background-color: red;
+    padding: 10px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+    color:white;
+    
+}
 
 /* plan  */
 /* plan  */
