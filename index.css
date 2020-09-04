@@ -153,3 +153,58 @@ background-size: 100% 100%;
     color: white;
    
 }
+
+/* schedule */
+/* schedule */
+/* schedule */
+
+
+
+.thead-light th {
+    color: #495057;
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+}
+
+.thead-light{
+    
+        text-transform: uppercase;
+        font-weight: 700;
+        
+    
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+        border-bottom-color: rgb(222, 226, 230);
+        border-bottom-width: 5px;
+}
+.table th {
+    font-weight: 3000;
+}
+.table-bordered th, .table-bordered td {
+    border: 1px solid #dee2e6;
+        
+}
+table th, table td {
+    padding: 10px 50px;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+
+table tr:hover {
+    color: #fff;
+    background-color: rgb(243, 117, 117);
+}
+table {
+    text-align: center;
+    border-collapse: collapse;
+}
+table{
+    margin: 20px auto auto 180px;
+}
+#schedule{
+    background:rgba(184, 106, 121, 0.3);
+}
