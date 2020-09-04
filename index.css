@@ -221,3 +221,8 @@ table{
 .price:hover{
 transform: scale(1.1);
 }
+#plan
+{
+    background: fixed url(img/barbell-1839086_1920.jpg) ;
+    
+}
