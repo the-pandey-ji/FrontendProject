@@ -213,6 +213,8 @@ table{
 <!-- Trainer  --> */
 #trainer{
     background-color:lightgreen ;
+    width: 100%;
+    length:100%;
 }
 .trainer{
     display: flex;
@@ -303,4 +305,25 @@ transform: scale(1.1);
 #convert input{
     margin: 20px ;
     padding: 15px 40px;
+}
+
+
+footer div{
+    /* width: 40%; */
+    margin-left: 25%;
+}
+
+
+footer{
+    /* background-color: #495057; */
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.social a{
+    position: relative;
+    text-decoration: none;
+    margin: 10px;
+    font-size: x-large;
 }
