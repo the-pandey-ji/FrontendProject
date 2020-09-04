@@ -9,9 +9,9 @@
 .banner {
     font-family: 'Baloo Bhai', cursive;
     /* height:100vh; */
-    background-attachment: fixed;
+ 
     background: url('img/workout-1946596_1920.jpg');
-
+   background-attachment: fixed;
 background-size: 100% 100%; 
  }
 
@@ -124,4 +124,32 @@ background-size: 100% 100%;
     width: 74%;
     margin: 10px auto;
 
+} 
+.col-lg-4{
+   display : inline-flex;
+   width : 25%;
+   margin: 30px;
+  }
+.single-offer {
+    padding: 40px 30px 30px 30px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 20px 60px 0px rgba(246, 33, 75, 0.3);
+    text-align: center;
+  }
+  
+  .single-offer h4 {
+    padding: 30px 0 20px 0;
+  }
+  
+
+  .offer{
+    text-align: center;
+}
+#course{
+    /* background-size: 200px 200px; */
+    background: url(img/abs-1850926_1920.jpg) ;
+    background-attachment: fixed;
+    color: white;
+   
 }
