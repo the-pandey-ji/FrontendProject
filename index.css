@@ -224,5 +224,15 @@ transform: scale(1.1);
 #plan
 {
     background: fixed url(img/barbell-1839086_1920.jpg) ;
+    background-size: 100%;
     
+}
+.plan-head{
+    color:white ;
+    font-weight: 100;
+}
+.price button{
+    background-color: red;
+    color: #dee2e6;
+    padding: 2px 15px;
 }
