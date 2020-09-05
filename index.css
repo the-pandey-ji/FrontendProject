@@ -213,8 +213,11 @@ table {
     text-align: center;
     border-collapse: collapse;
     margin: auto;
+ 
+    overflow-x: scroll;
 }
 #schedule{
+
     background:rgba(184, 106, 121, 0.3);
 }
 /* <!-- Trainer  -->
@@ -466,6 +469,9 @@ footer{
    }
 @media screen and (max-width:896px)
 {
+    .banner{
+        background-image: url(img/spencer-davis-0ShTs8iPY28-unsplash.jpg);
+    }
     .side{
         width: 100%;
         text-align: center;
@@ -477,6 +483,7 @@ footer{
 
     .container {
         width: 40%;
+        margin:70px auto;
     }
     .banner{
         background-size: cover;
@@ -488,13 +495,42 @@ footer{
     #offer .col-lg-4{
         width: 70%;
     }
-    
-    
+    .table{
+        transform: scale(0.63);
+        margin-left:-12% ;
+    }
+    .price{
+        display: flex;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+
 }
 @media screen and (max-width:668px)
 {
+    .bmi-input{
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
     .container {
 width: 70%;
+    }
+    #trainer{
+        height: 100%;
+    }
+    .trainer{
+        display: inline-block;
+        width: 50%;
+        
+    }
+    .table{
+        transform: scale(0.4);
+        margin-left:-30% ;
+        margin-top:-20% ;
+        margin-bottom:-15% ;
+      
     }
 }
    
