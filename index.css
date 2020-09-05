@@ -448,6 +448,10 @@ footer{
     z-index: 99;
 
 }
+.right{
+   top: 70vh;
+    left: 0;
+}
 .hbtn{
     opacity: 0;
 }
