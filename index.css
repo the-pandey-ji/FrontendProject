@@ -5,6 +5,9 @@
     padding: 0px;
    box-sizing: border-box;
 }
+.vertical{
+    display: none;
+}
 
 .banner {
     font-family: 'Baloo Bhai', cursive;
@@ -365,48 +368,87 @@ footer{
 
    /* upto 1024 */
 
-   @media screen and (max-width:1024px){
-.left,.right{
+   @media screen and (max-width:1024px)
+   {
+.header{
     display: none;
 }
-input{
-    display: none;
+.vertical{
+    display: unset;
 }
 
 
-.mid{
-    
-   margin: 0;
+
+
+
+.vertical .hder{
+    position: fixed;
+    top: 0;
+    display: flex;
+    background-color: darkslategrey;
+    height: 70px;
     width: 100%;
-    /* position: fixed; */
-    /* top:-100%; */
-    left: -100%;
-    background-color: #353b48;
-    
-    /* transition: 0.7s; */
-    z-index: 99;
-}
-.mid ul li {
-width: 90vw;
-    display: block;
-   
-}
-.mid ul li {
-    
-text-align: center;
+    justify-content : center;
+    line-height: 70px;
+    align-items: center;
+    z-index: 98;
 
 }
+.hder img{
+    height: 70px;
+    width: 130px;
+    margin-right: 10px;
+    filter: invert(100%);
+}
+.hder h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+.side{
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    top: 70px;
+    background-color: #353b48;
+    left: -100%;
+    transition: 0.7s;
+    z-index: 97;
+    text-align: center;
+}
+.side ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 25px 15px 0px;
+    color: white;
+}
+.side ul li {
+    list-style: none;
+    border-bottom: 2px solid rgba(225,225,225,.1);
+  
+}
+
+.side ul li a:hover{ 
+    border-left:solid 10px white ;
+}
+
 .sbtn, .hbtn{
+
     font-size: 30px;
     color: white;
     position : fixed;
     top:20px;
     left:40px;
+    z-index: 99;
+
 }
- .hbtn{
+.hbtn{
     opacity: 0;
 }
-/*
+
 #chk:checked ~ .side{
     left : 0;
 } 
@@ -420,10 +462,39 @@ text-align: center;
     opacity: 1;
 }
 
-#chk:checked ~ .content
-{
-     width: 80%;
-    
-} */
 
    }
+@media screen and (max-width:896px)
+{
+    .side{
+        width: 100%;
+        text-align: center;
+    }
+    .hder h1
+    {
+        display: none;
+    }
+
+    .container {
+        width: 40%;
+    }
+    .banner{
+        background-size: cover;
+    }
+    .offer{
+        display: block;
+
+    }
+    #offer .col-lg-4{
+        width: 70%;
+    }
+    
+    
+}
+@media screen and (max-width:668px)
+{
+    .container {
+width: 70%;
+    }
+}
+   
