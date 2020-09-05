@@ -194,13 +194,10 @@ background-size: 100% 100%;
 .table th {
     font-weight: 3000;
 }
-.table-bordered th, .table-bordered td {
+.table th, .table td {
     border: 1px solid #dee2e6;
-        
-}
-table th, table td {
     padding: 10px 50px;
-    vertical-align: top;
+    /* vertical-align: top;  */
     border-top: 1px solid #dee2e6;
 }
 
@@ -212,9 +209,7 @@ table tr:hover {
 table {
     text-align: center;
     border-collapse: collapse;
-}
-table{
-    margin: 20px auto auto 180px;
+    margin: auto;
 }
 #schedule{
     background:rgba(184, 106, 121, 0.3);
