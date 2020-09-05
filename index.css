@@ -133,7 +133,7 @@ background-size: 100% 100%;
 .col-lg-4{
    display : inline-flex;
    width : 25%;
-   height:350px;
+   height:100%;
    margin: 30px;
   }
 .single-offer {
@@ -221,15 +221,23 @@ table {
     background-color:lightgreen ;
     width: 100%;
     height: 120vh;
+  
+    justify-content: center;
+    /* padding: auto; */
 }
 .trainer{
     display: flex;
-    width: 20%;
-    margin: 0 7%;
+    width: 100%;
+   
 }
 .trainer-img{
-    margin: 10px;
+margin: auto;;
 }
+.trainer-img img{
+    margin: auto;
+    width: 95%;
+}
+
 /* <!-- become a member -->
 <!-- become a member -->
 <!-- become a member --> */
@@ -350,3 +358,72 @@ footer{
 }
 .back-to-top h4 a:focus{
    outline: none;}
+
+/* #chk{
+    display:none;
+} */
+
+   /* upto 1024 */
+
+   @media screen and (max-width:1024px){
+.left,.right{
+    display: none;
+}
+input{
+    display: none;
+}
+
+
+.mid{
+    
+   margin: 0;
+    width: 100%;
+    /* position: fixed; */
+    /* top:-100%; */
+    left: -100%;
+    background-color: #353b48;
+    
+    /* transition: 0.7s; */
+    z-index: 99;
+}
+.mid ul li {
+width: 90vw;
+    display: block;
+   
+}
+.mid ul li {
+    
+text-align: center;
+
+}
+.sbtn, .hbtn{
+    font-size: 30px;
+    color: white;
+    position : fixed;
+    top:20px;
+    left:40px;
+}
+ .hbtn{
+    opacity: 0;
+}
+/*
+#chk:checked ~ .side{
+    left : 0;
+} 
+
+#chk:checked ~ .sbtn
+{
+    opacity: 0;
+}
+#chk:checked ~ .hbtn
+{
+    opacity: 1;
+}
+
+#chk:checked ~ .content
+{
+     width: 80%;
+    
+} */
+
+   }
