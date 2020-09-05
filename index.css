@@ -133,6 +133,7 @@ background-size: 100% 100%;
 .col-lg-4{
    display : inline-flex;
    width : 25%;
+   height:350px;
    margin: 30px;
   }
 .single-offer {
